@@ -10,7 +10,9 @@ Dragon Armor is a multidisciplinary engineering project that particularly focuse
 
 If you are willing to fund the project then please contact the project lead via mert.yildiran@bil.omu.edu.tr
 
-The CAD files (which are the files with .f3d and .f3z extensions) must be opened using [Autodesk Fusion 360](https://www.autodesk.com/products/fusion-360/overview). The files with .f3z extension are the distributed designs, it means they are depended to other files so you need to import/upload all the files to your project. For **Dragon Helmet** for example [TheHelmet.f3z](https://github.com/DragonComputer/DragonArmor/blob/master/DragonHelmet/TheHelmet.f3z) is the main project file and it depends to all the other files located under [DragonArmor/tree/master/DragonHelmet](https://github.com/DragonComputer/DragonArmor/tree/master/DragonHelmet).
+The CAD files (which are the files with `.stp` and `.f3z` extensions) must be opened/imported with exactly the same filenames using [Autodesk Fusion 360](https://www.autodesk.com/products/fusion-360/overview). The files with `.f3z` extension are the distributed designs, it means they are depended to other files(`.stp`) so you need to import/upload all the files to your project. For **Dragon Helmet** for example [TheHelmet.f3z](https://github.com/DragonComputer/DragonArmor/blob/master/DragonHelmet/TheHelmet.f3z) is the main project file and it depends to all the other files located under [DragonArmor/tree/master/DragonHelmet](https://github.com/DragonComputer/DragonArmor/tree/master/DragonHelmet).
+
+You can also view the files with `.stl` extension directly on your browser, thanks to GitHub's brilliant [STL File Viewing](https://github.com/blog/1465-stl-file-viewing) feature.
 
 If you are not familiar with Git and GitHub then please follow these tutorials first:
  - [git - the simple guide](http://rogerdudler.github.io/git-guide/)
